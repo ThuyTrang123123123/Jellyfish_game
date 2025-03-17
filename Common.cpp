@@ -18,7 +18,7 @@ bool InitData()
 
     SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1");
 
-    g_window = SDL_CreateWindow("JELLYFISH GAME <3", SDL_WINDOWPOS_UNDEFINED,
+    g_window = SDL_CreateWindow("JELLYFISH GAME <3 Nguyễn Thuỳ Trang - 24021644", SDL_WINDOWPOS_UNDEFINED,
                                 SDL_WINDOWPOS_UNDEFINED,
                                 SCREEN_WIDTH, SCREEN_HEIGHT,
                                 SDL_WINDOW_SHOWN);
