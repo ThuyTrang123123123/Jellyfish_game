@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1742226488 source:d:\trang\learnc++\codeblock\game\jellyfish_game\main.cpp
+	<iostream>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+
