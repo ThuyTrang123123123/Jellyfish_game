@@ -10,4 +10,4 @@ Hành trình về nhà của sứa con
   - Vượt chướng ngại vật
   - Ăn rong biển tích điểm để biến hoá có chức năng
   - Tiêu diệt quái lớn
-  - Kết thức trò chơi là về được nhà.
+  - Kết thúc trò chơi là về được nhà.
