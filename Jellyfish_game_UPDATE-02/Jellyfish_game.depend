@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1742315336 source:d:\trang\learnc++\codeblock\game\jellyfish_game\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+
+1742231235 source:d:\trang\learnc++\codeblock\game\jellyfish_game\baseobjects.cpp
+	"BaseObjects.h"
+
+1742231061 d:\trang\learnc++\codeblock\game\jellyfish_game\baseobjects.h
+	"Common.h"
+
+1742315215 d:\trang\learnc++\codeblock\game\jellyfish_game\common.h
+	<windows.h>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1742237149 source:d:\trang\learnc++\codeblock\game\jellyfish_game\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+
+1742315215 source:d:\trang\learnc++\codeblock\game\jellyfish_game\game_map.cpp
+	"game_map.h"
+
+1742309136 d:\trang\learnc++\codeblock\game\jellyfish_game\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
