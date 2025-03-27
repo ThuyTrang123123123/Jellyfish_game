@@ -6,6 +6,7 @@ Hành trình về nhà của sứa con
   + Kỹ thuật Tile map thử nghiệm cho game (trong tệp Jellyfish_game_UPDATE-02)
   + Load nhân vật và hiệu ứng animation (Jellyfish_game_UPDATE-03)
   + Chỉnh tốc độ và chạy màn hình (Jellyfish_game_UPDATE-04)
+  + Nạp và điều chỉnh hướng đạn cho nhân vật (Jellyfish_game_UPDATE-05)
 2. Giới thiệu :
   - Sứa con vượt thử thách trưởng thành để tìm đường về nhà -> chiến thắng.
 3. Cách chơi:
