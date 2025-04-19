@@ -8,6 +8,7 @@ Hành trình về nhà của sứa con
   + Chỉnh tốc độ và chạy màn hình (Jellyfish_game_UPDATE-04)
   + Nạp và điều chỉnh hướng đạn cho nhân vật (Jellyfish_game_UPDATE-05)
   + Thêm kẻ địch (Jellyfish_game_UPDATE-06)
+  + Xử lý va chạm (Jellyfish_game_UPDATE-07)
 2. Giới thiệu :
   - Sứa con vượt thử thách trưởng thành để tìm đường về nhà -> chiến thắng.
 3. Cách chơi:
