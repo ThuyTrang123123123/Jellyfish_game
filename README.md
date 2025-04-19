@@ -15,4 +15,7 @@ Hành trình về nhà của sứa con
   - Sứa con vượt thử thách trưởng thành để tìm đường về nhà -> chiến thắng.
 3. Cách chơi:
   - Vượt chướng ngại vật
+  - Di chyển bằng dấu mũi tên trái phải, nhảy lên nhấn chuột phải, bắn đạn nhấn chuột trái
+  - Có 5 mạng, chạm vào quái hoặc đạn của quái thì mất 1 mạng
+  - Thời gian giới hạn trong 5 phút chơi để về đích
   - Kết thúc trò chơi là về được nhà.
