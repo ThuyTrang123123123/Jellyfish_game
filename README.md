@@ -1,3 +1,4 @@
+
 # Jellyfish_game
 Hành trình về nhà của sứa con
 1. Tiến trình:
@@ -9,6 +10,7 @@ Hành trình về nhà của sứa con
   + Nạp và điều chỉnh hướng đạn cho nhân vật (Jellyfish_game_UPDATE-05)
   + Thêm kẻ địch (Jellyfish_game_UPDATE-06)
   + Xử lý va chạm (Jellyfish_game_UPDATE-07)
+  + Thêm text (Jellyfish_game_UPDATE-08)
 2. Giới thiệu :
   - Sứa con vượt thử thách trưởng thành để tìm đường về nhà -> chiến thắng.
 3. Cách chơi:
