@@ -14,9 +14,11 @@ Hành trình về nhà của sứa con
   + Thêm text (Jellyfish_game_UPDATE-08)
   + Load BOSS (Jellyfish_game_UPDATE-09)
     - HỌC TỪ LAZY FOO : SDL Tutorial:
-  + Thêm sound nền, đạn (Jellyfish_game_UPDATE-10)
+  + Thêm sound nền, cho đạn và update đạn của boss (Jellyfish_game_UPDATE-11)
 2. Giới thiệu :
-  - Sứa con vượt thử thách trưởng thành để tìm đường về nhà -> chiến thắng.
+  - Sứa con vượt thử thách trưởng thành để tìm đường về nhà -> chiến thắng
+  - Có 40 đích và 1 boss lớn
+  - 33 bánh donut.
 3. Cách chơi:
   - Vượt chướng ngại vật
   - Di chyển bằng dấu mũi tên trái phải, nhảy lên nhấn chuột phải, bắn đạn nhấn chuột trái
