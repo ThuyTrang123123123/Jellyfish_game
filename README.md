@@ -76,29 +76,29 @@ ________________
    
    •    Nhân vật chính: jellyfish 
    
-   •  LoadImg: load ảnh của main
+   •  	LoadImg: load ảnh của main
    
-   •  GetRectFrame: lập tạo độ
+   •  	GetRectFrame: lập tạo độ
    
-   •  set_clips() → quản lý animation của player
+   •  	set_clips() → quản lý animation của player
    
-   •  Show: di chuyển của main, chuyển qua từng frame -> animation
+   •  	Show: di chuyển của main, chuyển qua từng frame -> animation
    
-   •  HandelInputAction: hàm nhập để điều khiển main
+   • 	HandelInputAction: hàm nhập để điều khiển main
    
-   •` HandleBullet: xử lý đạn bắn
+   •` 	HandleBullet: xử lý đạn bắn
    
-   •  RemoveBullet: đạn mất khi đâm vào threat hoặc rời khỏi tầm nhìn của main
+   • 	RemoveBullet: đạn mất khi đâm vào threat hoặc rời khỏi tầm nhìn của main
    
-   •  DoPlayer: xử lý tạo độ di chuyển, nếu mà bị die hoặc rớt vực lùi lại 4 ô(so với tile map)
+   •  	DoPlayer: xử lý tạo độ di chuyển, nếu mà bị die hoặc rớt vực lùi lại 4 ô(so với tile map)
    
-   •  CenterEntityOnMap: cho bản ddoof di chuyển theo main ở chính giữa
+   •  	CenterEntityOnMap: cho bản ddoof di chuyển theo main ở chính giữa
    
-   •  CheckToMap: check di chuyển ăn donut
+   •  	CheckToMap: check di chuyển ăn donut
    
-   •  IncreaseDonut: tăng donut_count
+   •  	IncreaseDonut: tăng donut_count
    
-   •  UpdateImagePlayer: load ảnh chạy hoặc nhảy
+   •  	UpdateImagePlayer: load ảnh chạy hoặc nhảy
 
 ⸻
 
@@ -110,15 +110,15 @@ ________________
  
 	•	Bắn đạn, xử lý va chạm với player
  
-   •  LoadImg, GetRectFrame, set_clips, Show, DoPlayer, RemoveBullet, CheckToMap tương tự trong MainObject
+   •  	LoadImg, GetRectFrame, set_clips, Show, DoPlayer, RemoveBullet, CheckToMap tương tự trong MainObject
    
-   •  InitThreats: di chuyển qua lại từ tọa độ Ox từ a đến b
+   •  	InitThreats: di chuyển qua lại từ tọa độ Ox từ a đến b
    
-   •  ImpMoveType: load ảnh trái phải của threat
+   •  	ImpMoveType: load ảnh trái phải của threat
    
-   •  InitBullet: nạp đạn và khoảng cách đạn đi cho threat
+   •  	InitBullet: nạp đạn và khoảng cách đạn đi cho threat
    
-   •  MakeBullet: cập nhật và lặp lại đạn bắn
+   • 	MakeBullet: cập nhật và lặp lại đạn bắn
 
  **TỪ ĐÂY CÁC HÀM NÀO GIỐNG TRÊN SẼ KHÔNG GỌI LẠI NỮA VÌ CHÚNG CÓ CHỨC NĂNG TƯƠNG TỰ **
 ⸻
@@ -135,7 +135,7 @@ ________________
  
 	•	Có MakeBullet(), Show(), InitBullet()
  
-   •  LoadImgFrames: load animation cho Boss != set_clips
+   •	LoadImgFrames: load animation cho Boss != set_clips
  
 ⸻
 
