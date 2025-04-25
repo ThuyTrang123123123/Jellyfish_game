@@ -23,6 +23,7 @@
     
     - HỌC TỪ LAZY FOO : SDL Tutorial:
   + Thêm sound nền, cho đạn và update đạn của boss (Jellyfish_game_UPDATE-11)
+  + Cập nhật chiến thắng cho Game (Jellyfish_game_UPDATE-12)
 ____________________
 **3. Cách chơi:**
   - Vượt chướng ngại vật
