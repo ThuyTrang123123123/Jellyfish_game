@@ -295,4 +295,4 @@ ______
 **Về đồ họa:**
   
   - Ảnh nền do chatgpt cung cấp
-  - Đồ họa khác lấy ở OpenGameArt.org
+  - Đồ họa khác lấy ở OpenGameArt.org, vi.pngtree.com
