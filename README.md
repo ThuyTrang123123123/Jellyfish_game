@@ -3,6 +3,9 @@
 
 **Hành trình về nhà của sứa con**
 
+**Vid Demo**
+-	https://www.youtube.com/watch?v=v7mQaT61soo
+
 **1. Giới thiệu:**
 
    Jellyfish Game là thử thách tìm đường của 1 chú Sứa con bị lạc giữa vùng biển xa xôi. Sứa phải vượt qua các trở ngại trên đường và tiêu diệt chúng, ăn bánh trên đường để lớn hơn, diện mạo đẹp hơn. Cuối cùng, Sứa phải gặp Boss cuối trước cửa về nhà, chỉ cần tiêu diệt đươc con Boss này, chú Sứa sẽ hoàn thành nhiệm vụ và về nhà thành công.
