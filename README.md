@@ -1,7 +1,12 @@
 
 # Jellyfish_game
-Hành trình về nhà của sứa con
-1. Tiến trình:
+
+**Hành trình về nhà của sứa con**
+
+**1. Giới thiệu:**
+   Jellyfish Game là thử thách tìm đường của 1 chú Sứa con bị lạc giữa vùng biển xa xôi. Sứa phải vượt qua các trở ngại trên đường và tiêu diệt chúng, ăn bánh trên đường để lớn hơn, diện mạo đẹp hơn. Cuối cùng, Sứa phải gặp Boss cuối trước cửa về nhà, chỉ cần tiêu diệt đươc con Boss này, chú Sứa sẽ hoàn thành nhiệm vụ và về nhà thành công.
+   
+**2. Tiến trình:**
    - THAM KHẢO TỪ YOUTOBE : Học Lập Trình Game C++ SDL Giới Thiệu Phần 2:
   + Thử chạy ảnh image cho Background.cpp
   + Main, Common, BaseObjects : Tạo kiến trúc cho Project Game (ở bên ngoài không trong tệp nào cả)
@@ -15,11 +20,8 @@ Hành trình về nhà của sứa con
   + Load BOSS (Jellyfish_game_UPDATE-09)
     - HỌC TỪ LAZY FOO : SDL Tutorial:
   + Thêm sound nền, cho đạn và update đạn của boss (Jellyfish_game_UPDATE-11)
-2. Giới thiệu :
-  - Sứa con vượt thử thách trưởng thành để tìm đường về nhà -> chiến thắng
-  - Có 40 đích và 1 boss lớn
-  - 33 bánh donut.
-3. Cách chơi:
+
+**3. Cách chơi:**
   - Vượt chướng ngại vật
   - Di chyển bằng dấu mũi tên trái phải, nhảy lên nhấn chuột phải, bắn đạn nhấn chuột trái
   - Có 3 mạng, chạm vào quái hoặc đạn của quái thì mất 1 mạng
@@ -27,3 +29,7 @@ Hành trình về nhà của sứa con
   - Có 1 số cơ chế riêng của game phải tự tìm hiểu
   - Thời gian giới hạn trong 400s chơi để về đích
   - Kết thúc trò chơi là về được nhà.
+
+**4. Về các nguồn làm game**
+![BOSS](https://github.com/user-attachments/assets/e1c080af-47cf-4e92-b9b5-75229307143b)
+- Về source code game:
