@@ -148,3 +148,8 @@
 🕐 ImpTime.h + ImpTime.cpp
 	•	Đồng hồ thời gian game
 	•	start(), get_ticks(), pause()
+______
+
+* Về đồ họa:
+  - Ảnh nền do chatgpt cung cấp
+  - Đồ họa khác lấy ở OpenGameArt.org
