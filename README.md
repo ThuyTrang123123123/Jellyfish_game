@@ -19,6 +19,7 @@
   + Xử lý va chạm (Jellyfish_game_UPDATE-07)
   + Thêm text (Jellyfish_game_UPDATE-08)
   + Load BOSS (Jellyfish_game_UPDATE-09)
+    
     - HỌC TỪ LAZY FOO : SDL Tutorial:
   + Thêm sound nền, cho đạn và update đạn của boss (Jellyfish_game_UPDATE-11)
 ____________________
