@@ -37,7 +37,7 @@
 	•	Hàm main()
 	•	Vòng lặp chính của game
 	•	Xử lý:
-	   -	Hiển thị màn hình
+	-	Hiển thị màn hình
    	-	Giao tiếp giữa các object
    	-	Xử lý va chạm, mạng, điểm số, thời gian, game over
 
@@ -46,7 +46,7 @@
 🔸 Common.h + Common.cpp
 	•	Biến toàn cục, định nghĩa SDL_Renderer, màu vẽ, cấu hình
 	•	Hàm CheckCollision(): check va chạm giữa hai hình chữ nhật
-   •  Các macro quan trọng
+   	•  Các macro quan trọng
 ⸻
 
 🟧 BaseObjects.h + BaseObjects.cpp
@@ -57,10 +57,10 @@
 
 🟩 MainObject.h + MainObject.cpp
    •	Di chuyển, nhảy, bắn đạn, va chạm, thu thập donut
-	•	Nhân vật chính: jellyfish 
+   •    Nhân vật chính: jellyfish 
    •  LoadImg: load ảnh của main
    •  GetRectFrame: lập tạo độ
-	•	set_clips() → quản lý animation của player
+   •  set_clips() → quản lý animation của player
    •  Show: di chuyển của main, chuyển qua từng frame -> animation
    •  HandelInputAction: hàm nhập để điều khiển main
    •` HandleBullet: xử lý đạn bắn
