@@ -29,6 +29,8 @@ ____________________
   - Di chyển bằng dấu mũi tên trái phải, nhảy lên nhấn chuột phải, bắn đạn nhấn chuột trái
   - Có 3 mạng, chạm vào quái hoặc đạn của quái thì mất 1 mạng
   - Bắn đạn vào 1 quái thì +1 mark, ăn 1 bánh donut +1 donut
+  - Diệt boss phải bắn liên hoan vào boss thì mới được
+  - Đạn của boss 3s được bắn 1 lần, nhưng là diện rộng sát thương là 4 ô
   - Có 1 số cơ chế riêng của game phải tự tìm hiểu
   - Thời gian giới hạn trong 400s chơi để về đích
   - Kết thúc trò chơi là về được nhà.
