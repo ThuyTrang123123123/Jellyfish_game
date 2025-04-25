@@ -47,8 +47,8 @@ ________________
 ⸻
 
 🔸 Common.h + Common.cpp
-	•	Biến toàn cục, định nghĩa SDL_Renderer, màu vẽ, cấu hình
-	•	Hàm CheckCollision(): check va chạm giữa hai hình chữ nhật
+	•  Biến toàn cục, định nghĩa SDL_Renderer, màu vẽ, cấu hình
+	•  Hàm CheckCollision(): check va chạm giữa hai hình chữ nhật
    	•  Các macro quan trọng
 ⸻
 
