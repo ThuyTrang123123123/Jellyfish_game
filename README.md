@@ -37,123 +37,186 @@ ________________
 * Về source code game:
 
 🟦 Main.cpp
+
 	- Hàm main()
+ 
 	- Vòng lặp chính của game
+ 
 	- Xử lý:
 		+ Hiển thị màn hình
+  
 	   	+ Giao tiếp giữa các object
+     
    		+ Xử lý va chạm, mạng, điểm số, thời gian, game over
+     
 
 ⸻
 
 🔸 Common.h + Common.cpp
+
 	•  Biến toàn cục, định nghĩa SDL_Renderer, màu vẽ, cấu hình
+ 
 	•  Hàm CheckCollision(): check va chạm giữa hai hình chữ nhật
+ 
    	•  Các macro quan trọng
     
 ⸻
 
 🟧 BaseObjects.h + BaseObjects.cpp
+
 	•	Lớp cơ sở cho mọi object có hình ảnh (LoadImg, Render, GetRect)
+ 
 	•	Được kế thừa bởi Player, Threat, Boss, Bullet
 
 ⸻
 
 🟩 MainObject.h + MainObject.cpp
+
    •	Di chuyển, nhảy, bắn đạn, va chạm, thu thập donut
+   
    •    Nhân vật chính: jellyfish 
+   
    •  LoadImg: load ảnh của main
+   
    •  GetRectFrame: lập tạo độ
+   
    •  set_clips() → quản lý animation của player
+   
    •  Show: di chuyển của main, chuyển qua từng frame -> animation
+   
    •  HandelInputAction: hàm nhập để điều khiển main
+   
    •` HandleBullet: xử lý đạn bắn
+   
    •  RemoveBullet: đạn mất khi đâm vào threat hoặc rời khỏi tầm nhìn của main
+   
    •  DoPlayer: xử lý tạo độ di chuyển, nếu mà bị die hoặc rớt vực lùi lại 4 ô(so với tile map)
+   
    •  CenterEntityOnMap: cho bản ddoof di chuyển theo main ở chính giữa
+   
    •  CheckToMap: check di chuyển ăn donut
+   
    •  IncreaseDonut: tăng donut_count
+   
    •  UpdateImagePlayer: load ảnh chạy hoặc nhảy
 
 ⸻
 
 🟥 ThreatsObject.h + ThreatsObject.cpp
+
 	•	Kẻ địch (threats): di chuyển hoặc đứng yên bắn
+ 
 	•	Gồm AI đơn giản (di chuyển trái/phải)
+ 
 	•	Bắn đạn, xử lý va chạm với player
+ 
    •  LoadImg, GetRectFrame, set_clips, Show, DoPlayer, RemoveBullet, CheckToMap tương tự trong MainObject
+   
    •  InitThreats: di chuyển qua lại từ tọa độ Ox từ a đến b
+   
    •  ImpMoveType: load ảnh trái phải của threat
+   
    •  InitBullet: nạp đạn và khoảng cách đạn đi cho threat
+   
    •  MakeBullet: cập nhật và lặp lại đạn bắn
 
  **TỪ ĐÂY CÁC HÀM NÀO GIỐNG TRÊN SẼ KHÔNG GỌI LẠI NỮA VÌ CHÚNG CÓ CHỨC NĂNG TƯƠNG TỰ **
 ⸻
 
 🟨 BossObject.h + BossObject.cpp
+
 	•	Boss cuối map (Giant)
+ 
 	•	Có hoạt ảnh riêng
+ 
 	•	Bắn đạn (storm)
+ 
 	•	Xuất hiện khi player đi đủ xa
+ 
 	•	Có MakeBullet(), Show(), InitBullet()
+ 
    •  LoadImgFrames: load animation cho Boss != set_clips
  
 ⸻
 
 🟦 BulletObject.h + BulletObject.cpp
+
 	•	Đại diện cho đạn:
+ 
 	•	LASER_BULLET
+ 
 	•	SPHERE_BULLET
+ 
 	•	STORM_BULLET (4 frame animation)
+ 
 	•	Có animation, hướng bay, tốc độ, va chạm
 
 ⸻
 
 🟫 ExplosionObject.h + ExplosionObject.cpp
+
 	•	Hiệu ứng nổ 💥
+ 
 	•	Có frame animation
+ 
 	•	Dùng khi va chạm → tạo hiệu ứng sống động
 
 ⸻
 
 ⚫ TextObject.h + TextObject.cpp
+
 	•	Hiển thị chữ (Text): thời gian, điểm, mạng
+ 
 	•	Sử dụng TTF_Font và SDL_ttf
+ 
 	•	SetText(), RenderText()
 
 ⸻
 
 ⚪ PlayerPower.h + PlayerPower.cpp
+
 	•	Hiển thị mạng sống (💛 trái tim)
+ 
 	•	Hiển thị số donut thu thập được
+ 
 	•	Init(), Render(), Decrease()
 
 ⸻
 
 🟪 SoundManager.h + SoundManager.cpp
+
 	•	Phát nhạc nền & hiệu ứng
+ 
 	•	Quản lý âm thanh toàn cục (singleton)
 
 ⸻
 
 🔷 game_map.h + game_map.cpp
+
 	•	Quản lý bản đồ (tile map)
+ 
 	•	LoadMap(), DrawMap(), GetMap()
+ 
 	•	Quét và hiển thị tile theo camera
 
 ⸻
 
 🟩 Geometric.h + Geometric.cpp
+
 	•	Vẽ hình chữ nhật UI (thanh thời gian, khung điểm,…)
+ 
 	•	RenderRectangle(), RenderOutline()
 
 ⸻
 
 🕐 ImpTime.h + ImpTime.cpp
+
 	•	Đồng hồ thời gian game
+ 
 	•	start(), get_ticks(), pause()
 ______
 
 * Về đồ họa:
+  
   - Ảnh nền do chatgpt cung cấp
   - Đồ họa khác lấy ở OpenGameArt.org
