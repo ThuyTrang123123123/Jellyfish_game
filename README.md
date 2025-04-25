@@ -22,8 +22,8 @@ Hành trình về nhà của sứa con
 3. Cách chơi:
   - Vượt chướng ngại vật
   - Di chyển bằng dấu mũi tên trái phải, nhảy lên nhấn chuột phải, bắn đạn nhấn chuột trái
-  - Có 5 mạng, chạm vào quái hoặc đạn của quái thì mất 1 mạng
+  - Có 3 mạng, chạm vào quái hoặc đạn của quái thì mất 1 mạng
   - Bắn đạn vào 1 quái thì +1 mark, ăn 1 bánh donut +1 donut
   - Có 1 số cơ chế riêng của game phải tự tìm hiểu
-  - Thời gian giới hạn trong 5 phút chơi để về đích
+  - Thời gian giới hạn trong 400s chơi để về đích
   - Kết thúc trò chơi là về được nhà.
