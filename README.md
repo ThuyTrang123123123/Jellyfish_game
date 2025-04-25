@@ -34,9 +34,32 @@ ____________________
   - Có 1 số cơ chế riêng của game phải tự tìm hiểu
   - Thời gian giới hạn trong 400s chơi để về đích
   - Kết thúc trò chơi là về được nhà.
+
+    _______________
+**4. Hướng dẫn chơi chi tiết**
+- Mở đầu:
+  ![startgame](https://github.com/user-attachments/assets/abcf6da0-7192-4fae-b3fb-8055d8f2ad8c)
+- Nhân vật chính :
+  ![threat_left](https://github.com/user-attachments/assets/eec2278d-72b0-4d8e-a8cc-84e01db2557d)
+- Threat:
+  ![1](https://github.com/user-attachments/assets/c6c20962-ca75-4b89-97f6-bdf1dfe121d4)
+  ![threat_level](https://github.com/user-attachments/assets/85c5cde5-677b-480c-bb43-91ad9674998f)
+![threat_left](https://github.com/user-attachments/assets/a51da0c1-a539-424d-9980-076008b9e0f0)
+- Đạn:
+  ![storm](https://github.com/user-attachments/assets/d9807c93-ea2d-4b27-8ead-62efd060f6c5)
+![sphere](https://github.com/user-attachments/assets/bf9f93a3-be0f-411a-ab08-6db5ed193d93)
+![laser](https://github.com/user-attachments/assets/201f9f84-7c56-4126-ab5e-1083c3100b5c)
+- Giao diện chơi:
+  ![Uploading image.png…]()
+
+
+
+
+
 ________________
-**4. Về các nguồn làm game**
-* Về source code game:
+**5. Về các nguồn làm game**
+
+**Về source code game:**
 
 🟦 Main.cpp
 
@@ -218,7 +241,7 @@ ________________
 	•	start(), get_ticks(), pause()
 ______
 
-* Về đồ họa:
+**Về đồ họa:**
   
   - Ảnh nền do chatgpt cung cấp
   - Đồ họa khác lấy ở OpenGameArt.org
