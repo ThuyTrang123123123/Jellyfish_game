@@ -34,12 +34,12 @@ ________________
 * Về source code game:
 
 🟦 Main.cpp
-	•	Hàm main()
-	•	Vòng lặp chính của game
-	•	Xử lý:
-	-	Hiển thị màn hình
-   	-	Giao tiếp giữa các object
-   	-	Xử lý va chạm, mạng, điểm số, thời gian, game over
+	-	Hàm main()
+	-	Vòng lặp chính của game
+	-	Xử lý:
+		+	Hiển thị màn hình
+	   	+	Giao tiếp giữa các object
+   		+	Xử lý va chạm, mạng, điểm số, thời gian, game over
 
 ⸻
 
