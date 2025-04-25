@@ -296,3 +296,8 @@ ______
   
   - Ảnh nền do chatgpt cung cấp
   - Đồ họa khác lấy ở OpenGameArt.org, vi.pngtree.com
+
+**ÂM THANH**
+
+- OpenGameArt.org
+- Youtube
