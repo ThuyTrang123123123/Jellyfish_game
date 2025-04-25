@@ -7,7 +7,7 @@
    Jellyfish Game là thử thách tìm đường của 1 chú Sứa con bị lạc giữa vùng biển xa xôi. Sứa phải vượt qua các trở ngại trên đường và tiêu diệt chúng, ăn bánh trên đường để lớn hơn, diện mạo đẹp hơn. Cuối cùng, Sứa phải gặp Boss cuối trước cửa về nhà, chỉ cần tiêu diệt đươc con Boss này, chú Sứa sẽ hoàn thành nhiệm vụ và về nhà thành công.
    
 **2. Tiến trình:**
-   - THAM KHẢO TỪ YOUTOBE : Học Lập Trình Game C++ SDL Giới Thiệu Phần 2:
+    - THAM KHẢO TỪ YOUTOBE : Học Lập Trình Game C++ SDL Giới Thiệu Phần 2:
   + Thử chạy ảnh image cho Background.cpp
   + Main, Common, BaseObjects : Tạo kiến trúc cho Project Game (ở bên ngoài không trong tệp nào cả)
   + Kỹ thuật Tile map thử nghiệm cho game (trong tệp Jellyfish_game_UPDATE-02)
