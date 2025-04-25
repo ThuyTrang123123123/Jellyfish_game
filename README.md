@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/71b126ba-b3f5-4f6a-ba99-49af12ac5af5)
 # Jellyfish_game
 
 **Hành trình về nhà của sứa con**
@@ -42,22 +42,69 @@ ____________________
     _______________
 **4. Hướng dẫn chơi chi tiết**
 - Mở đầu:
-  ![startgame](https://github.com/user-attachments/assets/abcf6da0-7192-4fae-b3fb-8055d8f2ad8c)
+  ![startgame](https://github.com/user-attachments/assets/321ce82e-be25-427f-b968-e2a4becab4d6)
+
+  NHÁY CHUỘT ĐỂ BẮT ĐẦU
+  
 - Nhân vật chính :
-  ![threat_left](https://github.com/user-attachments/assets/eec2278d-72b0-4d8e-a8cc-84e01db2557d)
+  
+ ![jellyfish](https://github.com/user-attachments/assets/259831a2-e00e-478c-a0f3-1a6cc0ddf2e3) 
+
+  DI CHUYỂN SANG TRÁI PHẢI NHỜ NÚT MŨI TÊN TRÁI PHẢI TRÊN BÀN PHÌM
+  NHẢY LÊN NHÁY CHUỘT PHẢI
+  BẮN ĐẠN NHÁY CHUỘT TRÁI
+
 - Threat:
+  
+  **Boos**
   ![1](https://github.com/user-attachments/assets/c6c20962-ca75-4b89-97f6-bdf1dfe121d4)
+
+  BẮN RA LÓC XOÁY MỖI 3S, SẮT THƯƠNG RỘNG 4 Ô
+
+  **Quái thường**
   ![threat_level](https://github.com/user-attachments/assets/85c5cde5-677b-480c-bb43-91ad9674998f)
-![threat_left](https://github.com/user-attachments/assets/a51da0c1-a539-424d-9980-076008b9e0f0)
+  
+  ![threat_left](https://github.com/user-attachments/assets/a51da0c1-a539-424d-9980-076008b9e0f0)
+
+  Nếu main chạm phải địch thì trừ 1 mạng
+  
 - Đạn:
+
+  ![sphere](https://github.com/user-attachments/assets/bf9f93a3-be0f-411a-ab08-6db5ed193d93)
+  
+	ĐẠN CỦA MAIN
+  Có thể bắn xuyên tường
+  
   ![storm](https://github.com/user-attachments/assets/d9807c93-ea2d-4b27-8ead-62efd060f6c5)
-![sphere](https://github.com/user-attachments/assets/bf9f93a3-be0f-411a-ab08-6db5ed193d93)
-![laser](https://github.com/user-attachments/assets/201f9f84-7c56-4126-ab5e-1083c3100b5c)
+  
+  ![laser](https://github.com/user-attachments/assets/201f9f84-7c56-4126-ab5e-1083c3100b5c)
+
+  	ĐẠN CỦA ĐỊCH
+  Nếu main chạm đạn địch là sẽ bị trừ 1 mạng
+  Chạm vào đạn của threat con thì đạn của nó sẽ hết trong lượt chơi lại sau
+  Chạm vào của boss thì boss vẫn tiếp tục nhả đạn mà khồn mất đi
+
 - Giao diện chơi:
-  ![Uploading image.png…]()
 
+ ![Screenshot (34)](https://github.com/user-attachments/assets/370f0dfa-984f-4d86-a2ed-7f43a8612a2d)
 
+- Bảng đếm mạng, bánh donut, điểm, thời gian:
 
+![z6542445577260_ed47b041bb11b0d0b51113c103c29f38](https://github.com/user-attachments/assets/2af5017b-08ee-4762-8862-a54364ae10c7)
+
+- Muốn bắn chết boss thì phải bắn nhiều và random sẽ tiêu diệt được boss
+
+- Cuối cùng về lâu đài:
+
+  ![castle](https://github.com/user-attachments/assets/5f07b391-2c71-4ea2-8582-13083e0372d6)
+
+- Về đến lâu đài là trò chơi kết thức, chiến thắng:
+
+  ![win](https://github.com/user-attachments/assets/08ce3de1-958d-48cc-8db8-d095c9fd4014)
+
+- Trong trường hợp hết thời gian, hoặc hết 3 mạng thì game sẽ thua:
+
+  ![image](https://github.com/user-attachments/assets/91135557-afec-451c-b27a-95127e98f81e)
 
 
 ________________
