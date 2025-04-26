@@ -135,6 +135,12 @@ ________________
 	•  Hàm CheckCollision(): check va chạm giữa hai hình chữ nhật
  
    	•  Các macro quan trọng
+
+      		-	Kích thước màn hình
+		-	Tile_map
+  		-	Màu
+    		-	Tốc độ
+  
     
 ⸻
 
