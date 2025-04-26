@@ -121,9 +121,9 @@ ________________
 	- Xử lý:
 		+ Hiển thị màn hình
   
-	   	+ Giao tiếp giữa các object
+	   	+ Va chạm giữa các object
      
-   		+ Xử lý va chạm, mạng, điểm số, thời gian, game over
+   		+ Xử lý va chạm, mạng, điểm số, thời gian, game over, win
      
 
 ⸻
