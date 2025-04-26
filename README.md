@@ -112,6 +112,8 @@ ________________
 
 **Về source code game:**
 
+ **CÁC HÀM NÀO GIỐNG TRÊN SẼ KHÔNG GỌI LẠI NỮA VÌ CHÚNG CÓ CHỨC NĂNG TƯƠNG TỰ**
+
 🟦 Main.cpp
 
 	- Hàm main()
@@ -147,6 +149,8 @@ ________________
 🟧 BaseObjects.h + BaseObjects.cpp
 
 	•	Lớp cơ sở cho mọi object có hình ảnh (LoadImg, Render, GetRect)
+
+  	•	Giải phóng dữ liệu
  
 	•	Được kế thừa bởi Player, Threat, Boss, Bullet
 
@@ -202,7 +206,6 @@ ________________
    
    • 	MakeBullet: cập nhật và lặp lại đạn bắn
 
- **TỪ ĐÂY CÁC HÀM NÀO GIỐNG TRÊN SẼ KHÔNG GỌI LẠI NỮA VÌ CHÚNG CÓ CHỨC NĂNG TƯƠNG TỰ **
 ⸻
 
 🟨 BossObject.h + BossObject.cpp
