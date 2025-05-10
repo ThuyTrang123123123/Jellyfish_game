@@ -119,194 +119,190 @@ ________________
 
 **Về source code game:**
 
- **CÁC HÀM NÀO GIỐNG TRÊN SẼ KHÔNG GỌI LẠI NỮA VÌ CHÚNG CÓ CHỨC NĂNG TƯƠNG TỰ**
+1.	 Main.cpp – Hàm chính của game
+✅ Chức năng chính:
+•	Khởi tạo SDL, TTF, IMG, âm thanh
+•	Hiển thị màn hình bắt đầu (IMG/startgame.png)
+•	Tạo các đối tượng: map, player, threats (quái), boss, castle, power, donut, explosion
+•	Vòng lặp game chính: xử lý input, update, render, xử lý va chạm
+•	Kiểm tra chiến thắng (khi chạm lâu đài), thua (hết máu, hết thời gian)
+➡️ Các phần quan trọng:
+•	InitData() → khởi tạo SDL
+•	startScreen.Render() → hiện màn hình chờ nhấn chuột
+•	MakeThreadList() → khởi tạo list quái
+•	while (!is_quit) → vòng lặp game chính
+o	Input: SDL_PollEvent, p_player.HandelInputAction()
+o	Player: DoPlayer(), Show(), HandleBullet()
+o	Threats: DoPlayer(), Show(), MakeBullet()
+o	Boss: DoPlayer(), MakeBullet(), Show()
+o	Map: DrawMap()
+o	Va chạm: SDLCommon::CheckCollision
+o	HUD: time_game.RenderText(), mark_game.RenderText(), donut_game.RenderText()
+•	Hiệu ứng nổ: exp_main.Show(), exp_threat.Show()
+•	Thoát game: close(), SDL_Quit()
+_______________________________________________
+2.	 MainObject.cpp / MainObject.h – Đối tượng người chơi (player)
+✅ Chức năng chính:
+•	Quản lý vị trí, di chuyển, nhảy, rơi, bắn, trạng thái
+•	Xử lý input: trái/phải/nhảy/bắn
+•	Kiểm tra va chạm với map: ăn donut, va chạm tile
+•	Trung tâm hoá camera theo player
+•	Quản lý danh sách đạn
+➡️ Hàm quan trọng:
+•	LoadImg() → load ảnh nhân vật
+•	HandelInputAction() → xử lý input bàn phím, chuột
+•	DoPlayer() → xử lý di chuyển & update trạng thái
+•	CheckToMap() → va chạm map, update vị trí
+•	CenterEntityOnMap() → giữ player giữa màn hình
+•	HandleBullet(), RemoveBullet() → quản lý đạn
+•	IncreaseDonut() → tăng đếm donut
+•	UpdateImagePlayer() → đổi ảnh (nhảy/đi bộ)
+____________________________________
+3.	 ThreatsObject.cpp / ThreatsObject.h – Đối tượng kẻ địch (threat)
+✅ Chức năng chính:
+•	Quản lý vị trí, di chuyển (tĩnh/di chuyển qua lại)
+•	Bắn đạn
+•	Kiểm tra va chạm map
+•	Render animation
+•	Quản lý danh sách đạn
+➡️ Hàm quan trọng:
+•	LoadImg() → load ảnh kẻ địch
+•	set_clips() → chia frame animation
+•	DoPlayer() → di chuyển + gravity
+•	CheckToMap() → kiểm tra va chạm map
+•	ImpMoveType() → AI di chuyển qua lại
+•	MakeBullet() → bắn đạn
+•	InitBullet() → khởi tạo viên đạn
+__________________________________________
+4.	 BossObject.cpp / BossObject.h – Đối tượng boss
+✅ Chức năng chính:
+•	Boss di chuyển, bắn đạn, AI, va chạm map
+•	Độc lập với threats bình thường
+•	Quản lý danh sách đạn boss
+➡️ Hàm quan trọng:
+•	LoadImgFrames() → load 4 frame ảnh boss
+•	DoPlayer() → xử lý AI
+•	CheckToMap() → kiểm tra va chạm map
+•	MakeBullet(), InitBullet() → quản lý đạn
+•	Show() → vẽ boss lên màn hình
+___________________________________________________-
+5.	 BulletObject.cpp / BulletObject.h – Đối tượng đạn
+✅ Chức năng chính:
+•	Di chuyển đạn, vẽ đạn
+•	Quản lý kiểu đạn (SPHERE, LASER, STORM)
+•	Quản lý animation đạn storm
+➡️ Hàm quan trọng:
+•	LoadImgBullet() → load ảnh đạn theo loại
+•	HandleMove() → xử lý di chuyển trái/phải
+•	Render() → vẽ đạn (có/không animation)
+•	set_clips() → animation clip
+________________________________
+6.	 ExplosionObject.cpp / ExplosionObject.h – Hiệu ứng nổ
+✅ Chức năng chính:
+•	Quản lý animation nổ
+•	Dùng khi player, threat, boss nổ tung
+➡️ Hàm quan trọng:
+•	LoadImg() → load ảnh nổ
+•	set_clip() → chia clip animation
+•	Show() → hiển thị frame nổ
+_______________________________________________________
+7.	 game_map.cpp / game_map.h – Bản đồ tile
+✅ Chức năng chính:
+•	Load map từ file (.dat)
+•	Load tile image (map/0.png → map/19.png)
+•	Render map theo camera
+➡️ Hàm quan trọng:
+•	LoadMap() → đọc file map
+•	LoadTiles() → load ảnh tile
+•	DrawMap() → vẽ tile hiển thị trên screen
+___________________________________________________
+8.	 PlayerPower.cpp / PlayerPower.h – Hiển thị máu & donut
+✅ Chức năng chính:
+•	Hiển thị số mạng còn
+•	Hiển thị donut HUD
+•	Tăng/giảm mạng
+➡️ Hàm quan trọng:
+•	Init() → load ảnh power (máu)
+•	Show() → hiển thị lên screen
+•	Decrease(), InitCrease() → giảm/tăng mạng
+•	PlayerDonut::Init(), Show() → hiển thị donut HUD
+_________________________________________________
+9.	SoundManager.cpp / SoundManager.h – Quản lý âm thanh
+✅ Chức năng chính:
+•	Quản lý nhạc nền + hiệu ứng bắn
+•	Singleton pattern
+➡️ Hàm quan trọng:
+•	init() → khởi tạo SDL_mixer + load nhạc/âm
+•	playMusic() → phát nhạc nền
+•	playShot() → phát âm thanh bắn
+•	clean() → free âm thanh
+________________________________________
+10.	 TextObject.cpp / TextObject.h – Hiển thị chữ
+✅ Chức năng chính:
+•	Render text lên màn hình
+•	Đổi màu text (red, white, blank)
+➡️ Hàm quan trọng:
+•	LoadFromRenderText() → tạo texture từ string
+•	RenderText() → vẽ text
+•	SetColor() → đặt màu chữ
+•	SetText() → đặt nội dung text
+_______________________________________________________
+11.	 Geometric.cpp / Geometric.h – Vẽ hình cơ bản
+✅ Chức năng chính:
+•	Vẽ hình chữ nhật tô màu
+•	Vẽ viền chữ nhật
+➡️ Hàm quan trọng:
+•	RenderRectangle() → fill hình
+•	RenderOutline() → vẽ viền
+_____________________________________________________
+12.	 BaseObjects.cpp / BaseObjects.h – Đối tượng cơ sở
+✅ Chức năng chính:
+•	Quản lý SDL_Texture, rect, load/render ảnh
+•	Class cha cho player, threats, boss, tile, explosion
+➡️ Hàm quan trọng:
+•	LoadImg() → load ảnh
+•	Render() → vẽ
+•	Free() → giải phóng texture
+_____________________________________________________
+13.	ImpTimer (ImpTime.h / ImpTime.cpp)
+✅ Chức năng chính:
+•	Cung cấp bộ đếm thời gian (timer) cho game, đo thời gian trôi qua, hỗ trợ tạm dừng và tiếp tục.
+•	Thường dùng để tính delta-time, điều khiển tốc độ spawn, đếm ngược, v.v.
+➡️ Hàm quan trọng: 
+•	void start()  Đánh dấu timer đã bắt đầu 
+•	void stop() Đặt lại trạng thái chưa khởi động 
+•	void paused()Nếu timer đang chạy và chưa paused,
+•	void unpaused()
+•	int get_ticks() Trả về số ms đã trôi qua kể từ start() (hoặc kể từ lúc unpaused sau cùng).
+•	bool is_started() / bool is_paused()  Trả trạng thái hiện tại của timer (true/false).
+____________________________________________________________
+14.	Common (Common.h/Common.cpp)
+✅ Chức năng chính:
+•	Khởi tạo & đóng SDL: thiết lập SDL_Window, SDL_Renderer, khởi PNG, Mixer, TTF…
+•	Load dữ liệu chung: background, tile map, cấu hình màn hình…
+•	Quản lý cấu trúc Map: lưu lưới ô vuông, kích thước, vị trí bắt đầu.
+•	Kiểm tra va chạm: hàm chung CheckCollision dùng cho mọi object.
+➡️ Hàm quan trọng: 
+•	bool InitData()  khởi tạo SDL
+•	bool LoadBackground()  load ảnh nền
+•	void close()  giải phóng
+•	CheckCollision  check va chạm, trồng chéo tile vuông.
 
-🟦 Main.cpp
+___________________________________
 
-	- Hàm main()
- 
-	- Vòng lặp chính của game
- 
-	- Xử lý:
-		+ Hiển thị màn hình
-  
-	   	+ Va chạm giữa các object
-     
-   		+ Xử lý va chạm, mạng, điểm số, thời gian, game over, win
-     
+Main.cpp
+ ├── PlayerPower (HUD)
+ ├── MainObject (player)
+ ├── ThreatsObject (kẻ địch)
+ ├── BossObject (boss)
+ ├── BulletObject (đạn)
+ ├── ExplosionObject (nổ)
+ ├── GameMap (map tile)
+ ├── SoundManager (nhạc)
+ ├── TextObject (chữ)
+ └── Geometric (vẽ HUD)
+ ├── ImpTimer (Thời gian)
 
-⸻
-
-🔸 Common.h + Common.cpp
-
-	•  Biến toàn cục, định nghĩa SDL_Renderer, màu vẽ, cấu hình
- 
-	•  Hàm CheckCollision(): check va chạm giữa hai hình chữ nhật
- 
-   	•  Các macro quan trọng
-
-      		-	Kích thước màn hình
-		-	Tile_map
-  		-	Màu
-    		-	Tốc độ
-  
-    
-⸻
-
-🟧 BaseObjects.h + BaseObjects.cpp
-
-	•	Lớp cơ sở cho mọi object có hình ảnh (LoadImg, Render, GetRect)
-
-  	•	Giải phóng dữ liệu
- 
-	•	Được kế thừa bởi Player, Threat, Boss, Bullet
-
-⸻
-
-🟩 MainObject.h + MainObject.cpp
-
-   •	Di chuyển, nhảy, bắn đạn, va chạm, thu thập donut
-   
-   •    Nhân vật chính: jellyfish 
-   
-   •  	LoadImg: load ảnh của main
-   
-   •  	GetRectFrame: lập tạo độ
-   
-   •  	set_clips() → quản lý animation của player
-   
-   •  	Show: di chuyển của main, chuyển qua từng frame -> animation
-   
-   • 	HandelInputAction: hàm nhập để điều khiển main
-   
-   •` 	HandleBullet: xử lý đạn bắn
-   
-   • 	RemoveBullet: đạn mất khi đâm vào threat hoặc rời khỏi tầm nhìn của main
-   
-   •  	DoPlayer: xử lý tạo độ di chuyển, nếu mà bị die hoặc rớt vực lùi lại 4 ô(so với tile map)
-   
-   •  	CenterEntityOnMap: cho bản ddoof di chuyển theo main ở chính giữa
-   
-   •  	CheckToMap: check di chuyển ăn donut
-   
-   •  	IncreaseDonut: tăng donut_count
-   
-   •  	UpdateImagePlayer: load ảnh chạy hoặc nhảy
-
-⸻
-
-🟥 ThreatsObject.h + ThreatsObject.cpp
-
-	•	Kẻ địch (threats): di chuyển hoặc đứng yên bắn
- 
-	•	Gồm AI đơn giản (di chuyển trái/phải)
- 
-	•	Bắn đạn, xử lý va chạm với player
- 
-   •  	LoadImg, GetRectFrame, set_clips, Show, DoPlayer, RemoveBullet, CheckToMap tương tự trong MainObject
-   
-   •  	InitThreats: di chuyển qua lại từ tọa độ Ox từ a đến b
-   
-   •  	ImpMoveType: load ảnh trái phải của threat
-   
-   •  	InitBullet: nạp đạn và khoảng cách đạn đi cho threat
-   
-   • 	MakeBullet: cập nhật và lặp lại đạn bắn
-
-⸻
-
-🟨 BossObject.h + BossObject.cpp
-
-	•	Boss cuối map (Giant)
- 
-	•	Có hoạt ảnh riêng
- 
-	•	Bắn đạn (storm)
- 
-	•	Xuất hiện khi player đi đủ xa
- 
-	•	Có MakeBullet(), Show(), InitBullet()
- 
-   •	LoadImgFrames: load animation cho Boss != set_clips
- 
-⸻
-
-🟦 BulletObject.h + BulletObject.cpp
-
-	•	Đại diện cho đạn:
- 
-	•	LASER_BULLET
- 
-	•	SPHERE_BULLET
- 
-	•	STORM_BULLET (4 frame animation)
- 
-	•	Có animation, hướng bay, tốc độ, va chạm
-
-⸻
-
-🟫 ExplosionObject.h + ExplosionObject.cpp
-
-	•	Hiệu ứng nổ 💥
- 
-	•	Có frame animation
- 
-	•	Dùng khi va chạm → tạo hiệu ứng sống động
-
-⸻
-
-⚫ TextObject.h + TextObject.cpp
-
-	•	Hiển thị chữ (Text): thời gian, điểm, mạng
- 
-	•	Sử dụng TTF_Font và SDL_ttf
- 
-	•	SetText(), RenderText()
-
-⸻
-
-⚪ PlayerPower.h + PlayerPower.cpp
-
-	•	Hiển thị mạng sống (💛 trái tim)
- 
-	•	Hiển thị số donut thu thập được
- 
-	•	Init(), Render(), Decrease()
-
-⸻
-
-🟪 SoundManager.h + SoundManager.cpp
-
-	•	Phát nhạc nền & hiệu ứng
- 
-	•	Quản lý âm thanh toàn cục (singleton)
-
-⸻
-
-🔷 game_map.h + game_map.cpp
-
-	•	Quản lý bản đồ (tile map)
- 
-	•	LoadMap(), DrawMap(), GetMap()
- 
-	•	Quét và hiển thị tile theo camera
-
-⸻
-
-🟩 Geometric.h + Geometric.cpp
-
-	•	Vẽ hình chữ nhật UI (thanh thời gian, khung điểm,…)
- 
-	•	RenderRectangle(), RenderOutline()
-
-⸻
-
-🕐 ImpTime.h + ImpTime.cpp
-
-	•	Đồng hồ thời gian game
- 
-	•	start(), get_ticks(), pause()
-______
 
 **Về đồ họa:**
   
