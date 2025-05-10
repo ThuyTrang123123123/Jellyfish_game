@@ -1,0 +1,834 @@
+# depslib dependency file v1.0
+1742315336 source:d:\trang\learnc++\codeblock\game\jellyfish_game\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+
+1742231235 source:d:\trang\learnc++\codeblock\game\jellyfish_game\baseobjects.cpp
+	"BaseObjects.h"
+
+1742231061 d:\trang\learnc++\codeblock\game\jellyfish_game\baseobjects.h
+	"Common.h"
+
+1742315215 d:\trang\learnc++\codeblock\game\jellyfish_game\common.h
+	<windows.h>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1742237149 source:d:\trang\learnc++\codeblock\game\jellyfish_game\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+
+1742315215 source:d:\trang\learnc++\codeblock\game\jellyfish_game\game_map.cpp
+	"game_map.h"
+
+1742309136 d:\trang\learnc++\codeblock\game\jellyfish_game\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742231235 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\baseobjects.h
+	"Common.h"
+
+1742923347 d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\common.h
+	<windows.h>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1742237149 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+
+1742444867 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\game_map.cpp
+	"game_map.h"
+
+1742309136 d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742922977 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+
+1742442685 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\untitled1.c
+
+1742923149 d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\mainobject.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742923347 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-02\mainobject.cpp
+	"MainObject.h"
+
+1742231235 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\baseobjects.h
+	"Common.h"
+
+1742936602 d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\common.h
+	<windows.h>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1742237149 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+
+1742444867 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\game_map.cpp
+	"game_map.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742936528 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTime.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\mainobject.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742933072 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\mainobject.cpp
+	"MainObject.h"
+
+1742935953 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\imptime.cpp
+	"ImpTime.h"
+	"Common.h"
+
+1742935916 d:\trang\learnc++\codeblock\game\jellyfish_game_update-03\imptime.h
+
+1742981272 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\baseobjects.h
+	"Common.h"
+
+1742939276 d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\common.h
+	<windows.h>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1742237149 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+
+1742444867 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\game_map.cpp
+	"game_map.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742935953 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\imptime.cpp
+	"ImpTime.h"
+	"Common.h"
+
+1742935916 d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\imptime.h
+
+1742983928 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTime.h"
+
+1742983917 d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\mainobject.h
+	<vector>
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1742985400 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\mainobject.cpp
+	"MainObject.h"
+
+1742985438 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\bulletobject.cpp
+	"BulletObject.h"
+
+1742985400 d:\trang\learnc++\codeblock\game\jellyfish_game_update-04\bulletobject.h
+	"BaseObjects.h"
+	"Common.h"
+
+1742981272 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\baseobjects.h
+	"Common.h"
+
+1743406675 d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\common.h
+	<windows.h>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1743097305 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\bulletobject.cpp
+	"BulletObject.h"
+
+1743097269 d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\bulletobject.h
+	"BaseObjects.h"
+	"Common.h"
+
+1742237149 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+
+1742444867 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\game_map.cpp
+	"game_map.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742935953 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\imptime.cpp
+	"ImpTime.h"
+	"Common.h"
+
+1742935916 d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\imptime.h
+
+1743441999 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTime.h"
+	"ThreatsObject.h"
+
+1743090521 d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\mainobject.h
+	<vector>
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1743404529 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\mainobject.cpp
+	"MainObject.h"
+
+1743445616 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\threadobjects.cpp
+	"ThreatsObject.h"
+
+1743436589 d:\trang\learnc++\codeblock\game\jellyfish_game_update-05\threatsobject.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742981272 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\baseobjects.h
+	"Common.h"
+
+1745038958 d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\common.h
+	<windows.h>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1744654933 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\bulletobject.cpp
+	"BulletObject.h"
+
+1744654932 d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\bulletobject.h
+	"BaseObjects.h"
+	"Common.h"
+
+1745038958 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+
+1742444867 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\game_map.cpp
+	"game_map.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742935953 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\imptime.cpp
+	"ImpTime.h"
+	"Common.h"
+
+1742935916 d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\imptime.h
+
+1745046827 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTime.h"
+	"ThreatsObject.h"
+	"ExplosionObject.h"
+
+1745040483 d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\mainobject.h
+	<vector>
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745040483 d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\threatsobject.h
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745040578 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\mainobject.cpp
+	"MainObject.h"
+
+1745040578 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\threadobjects.cpp
+	"ThreatsObject.h"
+
+1745046296 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\explosionobject.cpp
+	"ExplosionObject.h"
+
+1745046296 d:\trang\learnc++\codeblock\game\jellyfish_game_update-06\explosionobject.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742981272 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\baseobjects.h
+	"Common.h"
+
+1745038958 d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\common.h
+	<windows.h>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1744654933 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\bulletobject.cpp
+	"BulletObject.h"
+
+1744654932 d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\bulletobject.h
+	"BaseObjects.h"
+	"Common.h"
+
+1745084687 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"TextObject.h"
+
+1745046296 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\explosionobject.cpp
+	"ExplosionObject.h"
+
+1745046296 d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\explosionobject.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742444867 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\game_map.cpp
+	"game_map.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742935953 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\imptime.cpp
+	"ImpTime.h"
+	"Common.h"
+
+1742935916 d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\imptime.h
+
+1745040578 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\mainobject.cpp
+	"MainObject.h"
+
+1745085915 d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\mainobject.h
+	<vector>
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745040578 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\threadobjects.cpp
+	"ThreatsObject.h"
+
+1745040483 d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\threatsobject.h
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745083899 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTime.h"
+	"ThreatsObject.h"
+	"ExplosionObject.h"
+	"TextObject.h"
+
+1745083675 d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\textobject.h
+	"Common.h"
+
+1745083938 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-07\textobject.cpp
+	"TextObject.h"
+
+1742981272 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\baseobjects.h
+	"Common.h"
+
+1745038958 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\common.h
+	<windows.h>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1745146347 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\bulletobject.cpp
+	"BulletObject.h"
+
+1744654932 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\bulletobject.h
+	"BaseObjects.h"
+	"Common.h"
+
+1745084687 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"TextObject.h"
+
+1745083675 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\textobject.h
+	"Common.h"
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\explosionobject.cpp
+	"ExplosionObject.h"
+
+1745046296 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\explosionobject.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742444867 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\game_map.cpp
+	"game_map.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742935953 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\imptime.cpp
+	"ImpTime.h"
+	"Common.h"
+
+1742935916 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\imptime.h
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\mainobject.cpp
+	"MainObject.h"
+
+1745085915 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\mainobject.h
+	<vector>
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745083938 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\textobject.cpp
+	"TextObject.h"
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\threadobjects.cpp
+	"ThreatsObject.h"
+
+1745040483 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\threatsobject.h
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745174386 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTime.h"
+	"ThreatsObject.h"
+	"ExplosionObject.h"
+	"TextObject.h"
+	"PlayerPower.h"
+	"Geometric.h"
+	"BossObject.h"
+
+1745120695 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\playerpower.h
+	"Common.h"
+	"BaseObjects.h"
+
+1745122279 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\playerpower.cpp
+	"PlayerPower.h"
+
+1745138371 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\geometric.cpp
+	"Geometric.h"
+
+1745138388 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\geometric.h
+	"Common.h"
+
+1745172791 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\bossobject.cpp
+	"BossObject.h"
+
+1745172791 d:\trang\learnc++\codeblock\game\jellyfish_game_update-08\bossobject.h
+	"BaseObjects.h"
+	"Common.h"
+	"BulletObject.h"
+
+1742981272 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\baseobjects.h
+	"Common.h"
+
+1745038958 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\common.h
+	<windows.h>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1745172791 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\bossobject.cpp
+	"BossObject.h"
+
+1745172791 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\bossobject.h
+	"BaseObjects.h"
+	"Common.h"
+	"BulletObject.h"
+
+1744654932 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\bulletobject.h
+	"BaseObjects.h"
+	"Common.h"
+
+1745146347 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\bulletobject.cpp
+	"BulletObject.h"
+
+1745332820 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"TextObject.h"
+
+1745083675 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\textobject.h
+	"Common.h"
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\explosionobject.cpp
+	"ExplosionObject.h"
+
+1745046296 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\explosionobject.h
+	"Common.h"
+	"BaseObjects.h"
+
+1742444867 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\game_map.cpp
+	"game_map.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1745138371 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\geometric.cpp
+	"Geometric.h"
+
+1745138388 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\geometric.h
+	"Common.h"
+
+1742935953 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\imptime.cpp
+	"ImpTime.h"
+	"Common.h"
+
+1742935916 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\imptime.h
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\mainobject.cpp
+	"MainObject.h"
+
+1745085915 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\mainobject.h
+	<vector>
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745340112 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\playerpower.cpp
+	"PlayerPower.h"
+
+1745120695 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\playerpower.h
+	"Common.h"
+	"BaseObjects.h"
+
+1745083938 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\textobject.cpp
+	"TextObject.h"
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\threadobjects.cpp
+	"ThreatsObject.h"
+
+1745040483 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\threatsobject.h
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745340112 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTime.h"
+	"ThreatsObject.h"
+	"ExplosionObject.h"
+	"TextObject.h"
+	"PlayerPower.h"
+	"Geometric.h"
+	"BossObject.h"
+	"SoundManager.h"
+
+1745338489 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\soundmanager.cpp
+	"SoundManager.h"
+
+1745333653 d:\trang\learnc++\codeblock\game\jellyfish_game_update-09\soundmanager.h
+	<SDL_mixer.h>
+	<string>
+	<iostream>
+
+1742981272 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\baseobjects.h
+	"Common.h"
+
+1745038958 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\common.h
+	<windows.h>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1745172791 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\bossobject.cpp
+	"BossObject.h"
+
+1745172791 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\bossobject.h
+	"BaseObjects.h"
+	"Common.h"
+	"BulletObject.h"
+
+1744654932 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\bulletobject.h
+	"BaseObjects.h"
+	"Common.h"
+
+1745146347 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\bulletobject.cpp
+	"BulletObject.h"
+
+1745332820 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"TextObject.h"
+
+1745083675 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\textobject.h
+	"Common.h"
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\explosionobject.cpp
+	"ExplosionObject.h"
+
+1745046296 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\explosionobject.h
+	"Common.h"
+	"BaseObjects.h"
+
+1745405127 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\game_map.cpp
+	"game_map.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1745138371 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\geometric.cpp
+	"Geometric.h"
+
+1745138388 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\geometric.h
+	"Common.h"
+
+1742935953 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\imptime.cpp
+	"ImpTime.h"
+	"Common.h"
+
+1742935916 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\imptime.h
+
+1745464178 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTime.h"
+	"ThreatsObject.h"
+	"ExplosionObject.h"
+	"TextObject.h"
+	"PlayerPower.h"
+	"Geometric.h"
+	"BossObject.h"
+	"SoundManager.h"
+
+1745085915 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\mainobject.h
+	<vector>
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745040483 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\threatsobject.h
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745120695 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\playerpower.h
+	"Common.h"
+	"BaseObjects.h"
+
+1745403767 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\soundmanager.h
+	<SDL_mixer.h>
+	<string>
+	<iostream>
+
+1745340112 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\playerpower.cpp
+	"PlayerPower.h"
+
+1745083938 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\textobject.cpp
+	"TextObject.h"
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\threadobjects.cpp
+	"ThreatsObject.h"
+
+1745400994 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\level.cpp
+
+1745403767 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\mainobject.cpp
+	"MainObject.h"
+	"SoundManager.h"
+
+1745403979 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10\soundmanager.cpp
+	"SoundManager.h"
+
+1742981272 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\baseobjects.cpp
+	"BaseObjects.h"
+
+1742922977 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\baseobjects.h
+	"Common.h"
+
+1746839785 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\common.h
+	<windows.h>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1745603277 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\bossobject.cpp
+	"BossObject.h"
+
+1746871655 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\bossobject.h
+	"BaseObjects.h"
+	"Common.h"
+	"BulletObject.h"
+
+1745503127 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\bulletobject.h
+	"BaseObjects.h"
+	"Common.h"
+
+1746885651 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\bulletobject.cpp
+	"BulletObject.h"
+
+1745332820 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\common.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"TextObject.h"
+
+1745083675 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\textobject.h
+	"Common.h"
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\explosionobject.cpp
+	"ExplosionObject.h"
+
+1745046296 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\explosionobject.h
+	"Common.h"
+	"BaseObjects.h"
+
+1745405127 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\game_map.cpp
+	"game_map.h"
+
+1742933072 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\game_map.h
+	"Common.h"
+	"BaseObjects.h"
+
+1745138371 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\geometric.cpp
+	"Geometric.h"
+
+1745138388 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\geometric.h
+	"Common.h"
+
+1742935953 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\imptime.cpp
+	"ImpTime.h"
+	"Common.h"
+
+1742935916 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\imptime.h
+
+1745400994 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\level.cpp
+
+1746885943 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\main.cpp
+	"Common.h"
+	"BaseObjects.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTime.h"
+	"ThreatsObject.h"
+	"ExplosionObject.h"
+	"TextObject.h"
+	"PlayerPower.h"
+	"Geometric.h"
+	"BossObject.h"
+	"SoundManager.h"
+
+1746872346 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\mainobject.h
+	<vector>
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745040483 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\threatsobject.h
+	"Common.h"
+	"BaseObjects.h"
+	"BulletObject.h"
+
+1745120695 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\playerpower.h
+	"Common.h"
+	"BaseObjects.h"
+
+1745403767 d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\soundmanager.h
+	<SDL_mixer.h>
+	<string>
+	<iostream>
+
+1746760308 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\mainobject.cpp
+	"MainObject.h"
+	"SoundManager.h"
+
+1746759470 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\playerpower.cpp
+	"PlayerPower.h"
+
+1745403979 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\soundmanager.cpp
+	"SoundManager.h"
+
+1745083938 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\textobject.cpp
+	"TextObject.h"
+
+1745170818 source:d:\trang\learnc++\codeblock\game\jellyfish_game_update-10 - copy\threadobjects.cpp
+	"ThreatsObject.h"
+
