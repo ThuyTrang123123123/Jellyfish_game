@@ -4,7 +4,7 @@
 **Hành trình về nhà của sứa con**
 
 **Vid Demo**[
--	https://www.youtube.com/watch?v=v7mQaT61soo](https://drive.google.com/file/d/1m8xQaVCj5kD8mEtw95cVEU6RK2bLbaXR/view?usp=sharing)
+-	https://drive.google.com/file/d/1m8xQaVCj5kD8mEtw95cVEU6RK2bLbaXR/view?usp=sharing
 
 **1. Giới thiệu:**
 
