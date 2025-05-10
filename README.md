@@ -12,7 +12,7 @@
    _________________
 **2. Tiến trình:**
 
-    - THAM KHẢO TỪ YOUTOBE : Học Lập Trình Game C++ SDL Giới Thiệu Phần 2:https://www.youtube.com/watch?v=q1WzniyeGTU&list=PLR7NDiX0QsfTIEQUeYCfc2MyCquX0ig9V
+    - THAM KHẢO TỪ YOUTOBE : Học Lập Trình Game C++ SDL Giới Thiệu Phần 2:
   + Thử chạy ảnh image cho Background.cpp
   + Main, Common, BaseObjects : Tạo kiến trúc cho Project Game (ở bên ngoài không trong tệp nào cả)
   + Kỹ thuật Tile map thử nghiệm cho game (trong tệp Jellyfish_game_UPDATE-02)
@@ -27,13 +27,18 @@
     - HỌC TỪ LAZY FOO : SDL Tutorial:
   + Thêm sound nền, cho đạn và update đạn của boss (Jellyfish_game_UPDATE-11)
   + Cập nhật chiến thắng cho Game (Jellyfish_game_UPDATE-12)
+
+    - Tự code:
+      + Tăng tốc độ game khi đủ điểm (Jellyfish_game_UPDATE-13)
+      + 
 ____________________
 **3. Cách chơi:**
   - Vượt chướng ngại vật
   - Di chyển bằng dấu mũi tên trái phải, nhảy lên nhấn chuột phải, bắn đạn nhấn chuột trái
   - Có 3 mạng, chạm vào quái hoặc đạn của quái thì mất 1 mạng
   - Bắn đạn vào 1 quái thì +1 mark, ăn 1 bánh donut +1 donut
-  - Diệt boss phải bắn liên hoan vào boss thì mới được
+  - Mỗi khi được thêm 20 điểm thì game sẽ nhanh hơn x2, x3.
+  - Diệt boss phải bắn liên hòan vào boss thì mới được
   - Đạn của boss 3s được bắn 1 lần, nhưng là diện rộng sát thương là 4 ô
   - Có 1 số cơ chế riêng của game phải tự tìm hiểu
   - Thời gian giới hạn trong 400s chơi để về đích
