@@ -13,6 +13,7 @@
 **2. Tiến trình:**
 
     - THAM KHẢO TỪ YOUTOBE : Học Lập Trình Game C++ SDL Giới Thiệu Phần 2:
+    https://www.youtube.com/watch?v=k6iKwWc4hck&list=PLR7NDiX0QsfTIEQUeYCfc2MyCquX0ig9V&index=3
   + Thử chạy ảnh image cho Background.cpp
   + Main, Common, BaseObjects : Tạo kiến trúc cho Project Game (ở bên ngoài không trong tệp nào cả)
   + Kỹ thuật Tile map thử nghiệm cho game (trong tệp Jellyfish_game_UPDATE-02)
