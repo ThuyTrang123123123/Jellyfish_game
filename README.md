@@ -4,7 +4,10 @@
 **Hành trình về nhà của sứa con**
 
 **Vid Demo**[
--	https://drive.google.com/file/d/1m8xQaVCj5kD8mEtw95cVEU6RK2bLbaXR/view?usp=sharing
+-	https://drive.google.com/drive/folders/1327eEeq6T6dbfaF7U-gSRr1OniaUJoNo?usp=drive_link
+
+**Điểm khác biệt**
+- Mỗi lần diệt 20 quái là tốc độ game sẽ tăng dần lên x2, x3
 
 **1. Giới thiệu:**
 
